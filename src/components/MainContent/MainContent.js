@@ -44,11 +44,11 @@ const MainContent = (props) => {
         <div>
             <div className="login">
                 {!isLoading && !user && (
-                    <button className="login" onClick={() => loginWithRedirect()}>Login</button>
+                    <button className="logBtn" onClick={() => loginWithRedirect()}>Login</button>
                 )
                 }
                 {!isLoading && user && (
-                    <button className="logout" onClick={() => logout()}>Log out {user.family_name} </button>
+                    <button className="logBtn" onClick={() => logout()}>Log out {user.family_name} </button>
                 )}
             </div>
 

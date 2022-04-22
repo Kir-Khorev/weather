@@ -4,12 +4,9 @@ import './App.css';
 import MainContent from '../MainContent/MainContent';
 import Footer from '../Footer/Footer';
 import Auth0ProviderWithHistory from '../../auth0Provider';
-import { useAuth0 } from '@auth0/auth0-react';
 
-function App(props) {
+function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
-  // const { loginWithRedirect, logout, user, isLoading } = useAuth0();
-
   const myRef = useRef(null)
 
   useEffect(() => {
@@ -27,8 +24,6 @@ function App(props) {
   return (
     <Auth0ProviderWithHistory>
       <div>
-
-
         <div className='App' ref={myRef} >
           <MainContent />
         </div>

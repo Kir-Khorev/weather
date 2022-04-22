@@ -125,6 +125,22 @@ label {
 	font-size: 12px;
 }
 
+.logBtn {
+	padding: 15px 35px;
+	margin: 15px;
+	cursor: pointer;
+	transition: all ease-in .4s;
+	background: aliceblue;
+	color: goldenrod;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+
+.logBtn:hover {
+	border: 1px solid rgb(62, 62, 62);
+	color: orange;
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {	
 	:root {
