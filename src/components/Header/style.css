@@ -1,0 +1,42 @@
+form {
+    height: 100%;
+}
+
+.formGroup {
+    float: left;
+    height: 80%;
+    position: relative;
+    margin: 2.5rem 3.5rem 0 0;
+}
+
+.submitBtn {
+    position: absolute;
+    top: 27%;
+    right: 6%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-search {
+    color: #f3f3f3;
+    font-size: 1.8rem;
+}
+
+input[type='text'] {
+    width: 24rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.4rem 0.2rem 0.7rem 2.5rem;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+input[type='text']::placeholder {
+    color: #f3f3f3;
+}
